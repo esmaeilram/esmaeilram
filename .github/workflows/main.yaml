@@ -12,7 +12,7 @@ jobs:
         id: hello
         uses: ./.github/actions/hello
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'Esmaeil is comming'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
