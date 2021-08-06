@@ -10,7 +10,7 @@ jobs:
           fetch-depth: 0
       - name: Hello world action step
         id: hello
-        uses: ./.github/actions/hello
+        uses: actions/gressiram@v1.0.0
         with:
           who-to-greet: 'Esmaeil is comming'
       # Use the output from the `hello` step
